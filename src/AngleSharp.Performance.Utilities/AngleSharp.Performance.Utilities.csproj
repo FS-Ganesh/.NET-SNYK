@@ -1,11 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0</TargetFrameworks>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="MessagePack.UnityShims" Version="0.6.0" />
-  </ItemGroup>
+  <PackageReference Include="MessagePack" Version="2.4.14-alpha" />
+</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AngleSharp.Performance.Common\AngleSharp.Performance.Common.csproj" />
